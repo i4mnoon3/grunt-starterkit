@@ -9,14 +9,14 @@ module.exports = function(grunt) {
           pretty: true,
         },
         files: {
-          "dist/index.html": ["src/index.jade"]
+          "index.html": ["src/index.jade"]
         }
       }
     },
     sass: {
       dist: {
         files: {
-          'dist/assets/css/main.css': ['src/sass/main.sass']
+          'assets/css/main.css': ['src/sass/main.sass']
         }
       }
     },
