@@ -37,11 +37,15 @@ module.exports = function(grunt) {
         tasks: ['sass']
       }
     },
+    qunit: {
+      all: ['src/tests/**/*.html']
+    },
   });
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-jade');
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-qunit');
 
   grunt.registerTask('default', ['watch']);
-  grunt.registerTask('build', ['jade', 'sass']);
+  grunt.registerTask('build', ['jade', 'sass', 'qunit']);
 };

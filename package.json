@@ -1,11 +1,12 @@
 {
-  "name": "skeleton",
+  "name": "grunt-starterkit",
   "version": "1.0.0",
   "description": "",
   "main": "Gruntfile.js",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-jade": "^1.0.0",
+    "grunt-contrib-qunit": "^1.2.0",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0"
   },
@@ -14,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iescarro/skeleton.git"
+    "url": "git+https://github.com/iescarro/grunt-staterkit.git"
   },
   "author": "Ian Escarro <ian.escarro@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iescarro/skeleton/issues"
+    "url": "https://github.com/iescarro/grunt-staterkit/issues"
   },
-  "homepage": "https://github.com/iescarro/skeleton#readme"
+  "homepage": "https://github.com/iescarro/grunt-staterkit#readme"
 }
