@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iescarro/grunt-staterkit.git"
+    "url": "git+https://github.com/iescarro/grunt-starterkit.git"
   },
   "author": "Ian Escarro <ian.escarro@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iescarro/grunt-staterkit/issues"
+    "url": "https://github.com/iescarro/grunt-starterkit/issues"
   },
-  "homepage": "https://github.com/iescarro/grunt-staterkit#readme"
+  "homepage": "https://github.com/iescarro/grunt-starterkit#readme"
 }
