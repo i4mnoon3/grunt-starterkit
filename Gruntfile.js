@@ -32,11 +32,11 @@ module.exports = function(grunt) {
       sass: {
         files: ['src/sass/**/*.sass'],
         tasks: ['sass']
-      }
+      },
     },
     qunit: {
       all: ['src/tests/**/*.html']
-    },
+    }
   });
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-jade');
