@@ -1,4 +1,4 @@
-# grunt-starterkit v1.0.0
+# grunt-starterkit
 
 ## Install Dependencies
 
