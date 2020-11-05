@@ -1,6 +1,6 @@
 # grunt-starterkit
 
-It's a simple starter kit with GruntJS.
+It's a simple starter kit for GruntJS.
 
 ## Install Dependencies
 
